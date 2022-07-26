@@ -1,0 +1,140 @@
+
+body{
+    background-image: url(../img/imagen-fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: center center;
+    overflow: hidden;
+ 
+}
+
+.texto-titulo{
+    text-align: center;
+}
+
+.container-principal{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container-formulario{
+    width: 40%;
+    height: 60%;
+    margin: 0 auto;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.8);
+
+
+}
+
+.form-control{
+    width: 60%;
+}
+
+form{
+    height: 100%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+input{
+    width: 60%;
+    height: 2.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+label{
+    color: white;
+    font-size: 1.5rem;
+    text-align: left;
+    width: 60%;
+    margin-top: 1rem;
+
+    
+}
+.interior-formulario{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    align-items: center;
+ 
+
+
+}
+.container-formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;    
+    
+}
+
+.container-botones{
+    margin-top: 10%;
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.boton{
+    width: 6rem;
+    height: 3rem;
+}
+
+@media (max-width: 720px){
+
+    .container-formulario{
+        width: 80%;
+    }
+
+    .container-botones{
+        height: 10rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    input{
+        width: 80%;
+    }
+
+    .boton{
+        width: 80%;
+    }
+    label{
+        width: 80%;
+    
+    }
+
+}
+
+@media (min-width:721px) and (max-width: 1200px){
+
+    .container-formulario{
+        width: 50%;
+    }
+
+
+    input{
+        width: 80%;
+    }
+
+    .boton{
+        width: 25%;
+    }
+   
+    label{
+        width: 80%;
+    
+    }
+
+}

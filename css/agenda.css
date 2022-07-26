@@ -1,0 +1,106 @@
+
+body{
+    background-image: url(../img/imagen-fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: center center;
+    overflow: hidden;
+    
+ 
+}
+@media(min-width: 990px){
+    .texto-salir{
+
+        width: 5rem;
+
+    }
+}
+.texto-salir{
+    font-size: 1.5rem;
+    background-color:rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.texto-titulo{
+    text-align: center;
+}
+
+.container-principal{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container-contactos{
+    width: 60%;
+    height: 60%;
+    margin: 0 auto;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.8);
+    overflow: auto;
+
+}
+.tabla-contactos{
+    width: 100%;
+    color: white;
+    height: 2rem;
+}
+    
+
+.container-contactos::-webkit-scrollbar{
+
+    width: 5px;
+    
+
+}
+.container-contactos::-webkit-scrollbar-thumb{
+    background-color: rgba(255, 255,255, 0.2);
+    border-radius: 5px;
+    height: 5px;
+}
+
+.container-botones-tabla{
+    display: flex;
+    justify-content: space-evenly;
+  
+    
+}
+
+.btn-warning{
+    color: white;
+}
+.container-btn{
+    margin-top: 1rem;
+}
+
+.btn-agregar{
+    width: 60%;
+    
+    
+}
+
+.opacidad-btn-tabla{
+    opacity: 0.65;
+}
+.opacidad-btn-agregar{
+    opacity: 0.9;
+}
+
+
+/** Formulario para contactos**/
+.form-contacto{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+   
+}
+.swal2-input{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    border: 1px solid black;
+}
